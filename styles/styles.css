@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap');
+
+:root
+{
+    --blue: #043D7D;
+    --dark_grey: #9E9E9E;
+    --light_gray: #E0E0E0;
+    --orange: #FE8902;
+    --light_blue: #185ADA;
+    --black: #333333;
+}
+
+.wrapper-authorization
+{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.logo
+{
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.iput-auth
+{
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    float: none;
+}
+
+.form-control
+{
+    font-size: normal;
+    color: var(--light_gray);
+    border-radius: 8px;
+}
+
+.btn-primary
+{
+    margin-top: 80px;
+    color: var(--light_blue);
+    border-radius: 100px;
+    font-weight: bold;
+    color: white;
+    width: 280px;
+    height: 40px;
+
+}
