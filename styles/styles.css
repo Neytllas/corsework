@@ -41,11 +41,22 @@
 .btn-primary
 {
     margin-top: 80px;
-    color: var(--light_blue);
+    color: var(--blue);
     border-radius: 100px;
     font-weight: bold;
     color: white;
     width: 280px;
     height: 40px;
+}
 
+.text-auth
+{
+    color: var(--black);
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.text-auth:hover
+{
+    text-decoration: underline;
 }
