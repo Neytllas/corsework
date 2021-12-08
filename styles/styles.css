@@ -38,15 +38,22 @@
     border-radius: 8px;
 }
 
-.btn-primary
+.btn.btn-primary
 {
     margin-top: 80px;
-    color: var(--blue);
+    background-color: var(--blue);
+    border-color: var(--blue);
     border-radius: 100px;
     font-weight: bold;
     color: white;
     width: 280px;
     height: 40px;
+}
+
+.btn.btn-primary:hover
+{
+    background-color: var(--light_blue);
+    border-color: var(--light_blue);
 }
 
 .text-auth
@@ -78,6 +85,7 @@ h1
     display: inline-block;
     font-weight: bold;
 }
+
 
 img, svg{
  vertical-align: 0;
@@ -172,25 +180,17 @@ p
     font-style: normal;
 }
 
-.col-info__img
+.info
 {
     display: flex;
-    justify-content: start;
-}
-
-.col-info__text
-{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-style: normal;
-    font-weight: 600;
-}
-
-.row-info
-{
     margin-top: 25px;
     margin-bottom: 30px;
+}
+
+.info-img
+{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-info
@@ -211,16 +211,12 @@ p
     color: var(--dark_grey);
     font-style: normal;
     font-weight: 600;
-    display: flex;
-    text-align: start;
-    padding-top: 120px;
 }
 
-.img-table
+.d-table
 {
     display: flex;
-    justify-content: end;
-    padding-top: 90px;
+    justify-content: center;
 }
 
 .h4-text
@@ -258,10 +254,19 @@ p
 
 .btn.btn-danger
 {
-    background-color: var(--orange) ; 
+    background-color: var(--dark_grey) ; 
     border-radius: 100px;
     font-weight: bold;
     color: white;
     width: 280px;
     height: 40px;
+    border-color: var(--dark_grey);
 }
+
+.btn.btn-danger:hover
+{
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+
