@@ -68,6 +68,18 @@
     text-decoration: underline;
 }
 
+.text-without-auth
+{
+    color: var(--light_blue);
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.text-without-auth:hover
+{
+    text-decoration: underline;
+}
+
 
 .nav-item__bell
 {
@@ -269,4 +281,114 @@ p
     border-color: var(--orange);
 }
 
+.wrapper-history
+{
+    display: flex;
+}
+
+.main-text-history
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.text-history
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--light_blue);
+}
+
+.piece-of-history
+{
+    display: flex;
+    align-items: center;
+}
+
+.main-text-history
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-image: url(/images/lighting_white.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.history-icon
+{
+    background-color: var(--orange);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    flex: 0 0 40px;
+    margin-right: 15px;
+}
+
+.piece-of-history span
+{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.history-text
+{
+    font-style: normal;
+    font-weight: 600;
+    color: var(--dark_grey);
+}
+
+.history-text-2
+{
+    font-style: normal;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.input-text
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.fields
+{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+.btn.btn-info
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 100px;
+    font-weight: bold;
+    color: white;
+    width: 280px;
+    height: 40px;
+}
+
+.btn.btn-warning
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--orange);
+    border-color: var(--orange);
+    border-radius: 100px;
+    font-weight: bold;
+    color: white;
+    width: 280px;
+    height: 40px;
+}
 
