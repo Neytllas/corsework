@@ -18,32 +18,29 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"
-                ><img src="/images/icon.svg" alt="logo"
-              /></a>
-              <div
-                class="collapse navbar-collapse d-flex justify-content-end"
-                id="navbarNav"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item nav-item__bell">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      ><img src="/images/back.svg" alt=""
-                    /></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      ><img src="/images/search.svg" alt=""
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
 
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container"> 
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="navbar-brand d-flex " href="#"
+                ><img src="/images/logo.svg" alt="logo"
+              /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Личный кабинет</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">История</a>
+          </li>
+        </ul>
+      </div>
+</nav>
+
+    <div class="container">
           <div class="container container-indication">
             <div class="main-text-history">
                 <img src="/images/chart.svg" alt="" />Показания с <span class="text-history">25.06 по 25.08</span>
@@ -67,19 +64,20 @@
                 25 октября 2021
               </div>
 
-          <div class="piece-of-history">
-              <div class="history-icon"></div>
-              <p class="history-text">
-                <span>Электроэнергия</span>
-                По телефону
-              </p>
 
-              <div>
-                <p class="history-text-2">
-                Показания: 4752 квТ.ч
-                Расход: 82 кВт.ч
-              </p>
-          </div>     
+    <div class="container">
+      <div class="row ">
+        <div class="col history-icon"></div>
+        <div class="col-2 history-text">
+        <span class="piece-of-history">Электроэнергия</span>   
+          По телефону
+        </div>
+        <div class="col-2 history-text-2">
+          Показания: <strong>4752 квТ.ч</strong> 
+          <br>
+          Расход: <strong>82 кВт.ч</strong> 
+        </div>
+      </div>
     </div>
   </body>
 </html>
